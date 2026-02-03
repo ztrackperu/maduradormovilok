@@ -21,7 +21,7 @@ export default defineConfig({
   assetsInclude: ['**/*.svg', '**/*.csv'],
   server: {
     host: '0.0.0.0',  // Escucha en todas las interfaces de red
-    port: 5173,        // Puerto por defecto de Vite (puedes cambiarlo)
+    port: 6666,        // Puerto por defecto de Vite (puedes cambiarlo)
     strictPort: false, // Si el puerto está ocupado, usar otro
   },
 })

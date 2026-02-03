@@ -19,7 +19,7 @@ export default defineConfig({
 
   // File types to support raw imports. Never add .css, .tsx, or .ts files to this.
   assetsInclude: ['**/*.svg', '**/*.csv'],
-   base: '/beta_ripener/',
+   base: '',
   server: {
     host: '0.0.0.0',  // Escucha en todas las interfaces de red
     port: 6600,        // Puerto por defecto de Vite (puedes cambiarlo)
